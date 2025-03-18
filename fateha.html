@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عداد تكرار قراءة سورة الفاتحة</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #counter {
+            font-size: 24px;
+            margin: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        #surahText {
+            font-size: 22px;
+            margin: 20px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>قراءة سورة الفاتحة</h1>
+    
+    <div id="counter">عدد القراءات: 0</div>
+    <div id="surahText">
+        بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ<br>
+        الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ<br>
+        الرَّحْمَنِ الرَّحِيمِ<br>
+        مَالِكِ يَوْمِ الدِّينِ<br>
+        إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ<br>
+        اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ<br>
+        صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ<br>
+    </div>
+    
+    <button onclick="repeatSurah()">ابدأ القراءة</button>
+
+    <script>
+        let count = 0; // العداد
+        const counterEleme
